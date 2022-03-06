@@ -5,7 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#e3e4e6ab
+   
 }
 
 :root{
@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --secundary-color:#FA8E10;
     --white-color:#FDFDFD;
-    --input-border:#EFEEF6;
+    --input-border:#f1f1f1bb;
 
     --title-color:#434845;
     --subtitle-color:#647874;
@@ -34,6 +34,9 @@ html{
         @media (max-width:720px) {
             font-size:87.5%;/*=14px=14/16*100 */
         }
+        background-color:var(--input-border)
+}
+body {
 }
 
 body,

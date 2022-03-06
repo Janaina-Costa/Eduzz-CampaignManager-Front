@@ -16,7 +16,7 @@ export const Container = styled.aside`
         position:relative;
         top:31.325rem;
         text-align:center;
-        background-color:transparent;
+        
 
         h1{
             font-weight:700;
@@ -30,14 +30,12 @@ export const Container = styled.aside`
             color:var(--input-color);
         }
         img.megafone{
-            background-color:transparent;
             position:absolute;
             top:-15%;
             right:48% ;
                        
         }
         img.linkedin{
-            background-color:transparent;
             position:absolute;
             top:-16%;
             right:44% ;
@@ -45,7 +43,6 @@ export const Container = styled.aside`
                        
         }
         img.instagram{
-            background-color:transparent;
             position:absolute;
             top:-24%;
             right:32% ;
@@ -53,7 +50,6 @@ export const Container = styled.aside`
                        
         }
         img.whats{
-            background-color:transparent;
             position:absolute;
             top:-28%;
             right:46% ;
@@ -62,7 +58,6 @@ export const Container = styled.aside`
                        
         }
         img.face{
-            background-color:transparent;
             position:absolute;
             top:-32%;
             right:30% ;
@@ -71,7 +66,6 @@ export const Container = styled.aside`
                        
         }
         img.telegram{
-            background-color:transparent;
             position:absolute;
             top:-18%;
             right:26% ;
@@ -79,11 +73,9 @@ export const Container = styled.aside`
                        
         }
         img.twitter{
-            background-color:transparent;
             position:absolute;
             top:-26%;
-            right:16% ;
-            
+            right:16%;           
                        
         }
     }
